@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">uangKU</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Manajemen keuangan</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Reset</string>
+    <string name="action1_settings">Keluar</string>
+
+
+    <string name="aboutheader">uangKU &#169; 2018</string>
+    <string name="abouttext">uangKU adalah aplikasi yang berguna untuk mencatat pendapatan dan pengeluaran.</string>
+
+    <string name="messageWithLink"><a href="https://wahidari.gitlab.io/">@Fahra Lestari</a></string>
+    <string name="messageWithLink2"><a href="https://fianekame.github.io/">fahra lestari</a></string>
+    <string name="messageWithLink3"><a href="https://www.flaticon.com/">www.uangku.com</a></string>
+</resources>

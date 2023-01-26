@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRegister"
+    android:backgroundTint="@color/medium_grey"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/login_img_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Onboard!"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_img_1"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/colorblack"
+        android:id="@+id/login_text_1"/>
+
+    <LinearLayout
+        android:layout_below="@id/login_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:id="@+id/ly_1">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan nama"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/colorwhite"
+            android:id="@+id/edt_name"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <EditText
+            android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/button_shape"
+        android:hint="Masukkan email"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/colorwhite"
+            android:fontFamily="@font/poppinsregular"
+        android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan alamat"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/colorwhite"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_pass"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Membuat password"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/colorwhite"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_1"
+        android:text="Registrasi"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/colorwhite"
+        android:width="300dp"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/btn_regis"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/btn_regis"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ly_2"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah memiliki akun?"
+            android:fontFamily="@font/poppinsregular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Login"
+            android:fontFamily="@font/poppinsextra"
+            android:textColor="@color/colour1"
+            android:id="@+id/tv_registrasi"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
